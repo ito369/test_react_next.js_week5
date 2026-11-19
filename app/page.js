@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+    
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
@@ -63,6 +64,12 @@ export default function Home() {
             Documentation
           </a>
         </div>
+
+        <ul>
+          <li>Save and see your changes instantly.</li>
+          <li>こんにちは</li>
+        </ul>
+        
       </main>
     </div>
   );
